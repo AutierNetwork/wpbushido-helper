@@ -1,0 +1,8 @@
+{
+  "name": "pautier/wpbushido-helper",
+  "description": "WPBushido — Helper Plugin (ACF / Timber)",
+  "require": {
+    "php": "^5.6.37 || ^7.0",
+    "timber/timber": "^1.8"
+  }
+}
