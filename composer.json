@@ -1,6 +1,18 @@
 {
   "name": "pautier/wpbushido-helper",
+  "type": "wordpress-plugin",
   "description": "WPBushido — Helper Plugin (ACF / Timber)",
+  "keywords": ["wordpress","acf","timber"],
+  "homepage": "https://github.com/AutierNetwork/wpbushido-helper",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Philippe Autier",
+      "email": "philippe@autier.network",
+      "homepage": "https://www.koomma.fr",
+      "role": "Developer"
+    }
+  ],
   "require": {
     "php": "^5.6.37 || ^7.0",
     "timber/timber": "^1.8"
