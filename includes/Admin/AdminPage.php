@@ -5,7 +5,7 @@
  * @package WPBushido
  */
 
-namespace WPLeooProject\AdminPage;
+namespace WPBushido\AdminPage;
 
 use Timber\Timber;
 
