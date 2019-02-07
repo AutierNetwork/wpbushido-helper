@@ -5,7 +5,7 @@
  * @package WPBushido
  */
 
-namespace WPBushido\AdminPage;
+namespace WPBushido\Admin;
 
 use Timber\Timber;
 
