@@ -1,0 +1,12 @@
+# Composer
+/vendor
+
+# File system files
+.DS_Store
+*~
+.fuse*
+.idea
+
+# Security
+*.db
+*.log
