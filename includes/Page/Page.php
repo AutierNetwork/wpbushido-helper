@@ -224,12 +224,6 @@ class Page
                     if (isset($acfFields['seo_' . $field . '_form']) && !empty($acfFields['seo_' . $field . '_form'])) {
                         $return['seo_' . $field . '_form'] = self::checkSeoString($acfFields['seo_' . $field . '_form'], $context);
                     }
-                    if (isset($acfFields['seo_' . $field . '_'.$context['level']]) && !empty($acfFields['seo_' . $field . '_'.$context['level']])) {
-                        $return['seo_' . $field . '_'.$context['level']] = self::checkSeoString($acfFields['seo_' . $field . '_'.$context['level']], $context);
-                    }
-                    // if (isset($acfFields['seo_' . $field . '_']) && !empty($acfFields['seo_' . $field . '_dealer'])) {
-                    //     $return['seo_' . $field . '_dealer'] = self::checkSeoString($acfFields['seo_' . $field . '_dealer'], $context);
-                    // }
                 }
             }
         }
